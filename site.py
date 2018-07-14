@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 
 import web
+import rrdtool
 
 render = web.template.render('templates/')
 
