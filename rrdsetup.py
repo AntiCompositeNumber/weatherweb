@@ -14,6 +14,6 @@ rrdtool.create(
         "DS:temp:GAUGE:120:-40.1:177",
         "DS:humidity:GAUGE:2m:0:100",
         "RRA:AVERAGE:0.5:1m:1w",
-        "RRA:AVERAGE:0.5:10m:6m"
+        "RRA:AVERAGE:0.5:10m:6M",
         "RRA:AVERAGE:0.5:1h:5y"
         )
