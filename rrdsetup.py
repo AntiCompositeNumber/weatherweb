@@ -9,7 +9,7 @@ import rrdtool
 
 rrdtool.create(
         "weatherweb.rrd",
-        "--start", "now",
+        "--start", "N",
         "--step", "1m",
         "DS:temp:GAUGE:120:-40.1:177",
         "DS:humidity:GAUGE:2m:0:100",
