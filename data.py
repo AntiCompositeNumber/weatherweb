@@ -19,4 +19,4 @@ temperature = (temperature * 9/5) + 32
 
 #Send data to RRD
 rrdtool.update('weatherweb.rrd, N:{0:0.1f}:N:{1:0.1f}'.format(temperature, humidity))
-print(temperature","humidity)
+print(temperature,humidity,sep=',')
