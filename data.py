@@ -3,5 +3,20 @@
 import rrdtool
 import Adafruit_DHT
 
-print("Hello, world")
+#Set up sensor
+sensor = Adafruit_DHT.AM2302
+pin = 17
 
+#Get data from sensor
+humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+
+#Convert temperature from Celsius to Fahrenheit
+temperature = (temperature * 9/5) + 32
+
+#Round to tenths
+round(temperature,1)
+round(humidity,1)
+
+#Send data to RRD
+rrdtool.update("weatherweb.rrd", "N:"temperature":N:"humidity)
+print(temperature","humidity)
