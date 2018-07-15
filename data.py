@@ -14,9 +14,9 @@ humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 temperature = (temperature * 9/5) + 32
 
 #Round to tenths
-round(temperature,1)
-round(humidity,1)
+#round(temperature,1)
+#round(humidity,1)
 
 #Send data to RRD
-rrdtool.update("weatherweb.rrd", "N:"temperature":N:"humidity)
+rrdtool.update('weatherweb.rrd, N:{0:0.1f}:N:{1:0.1f}'.format(temperature, humidity))
 print(temperature","humidity)
