@@ -11,9 +11,11 @@ urls = (
 
 class index:
     def GET(self):
-        temp = 72
-        humidity = 23
-        return render.index(temp,humidity)
+        lastUpdate = rrdtool.lastupdate("weatherweb.rrd")
+        temp = lastUpdate["temp"]
+        humidity = lastUpdate["humidity"]
+        updateTime = lastUpdate["date"]
+        return render.index(temp,humidity,updateTime)
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
