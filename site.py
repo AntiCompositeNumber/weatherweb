@@ -12,8 +12,8 @@ urls = (
 class index:
     def GET(self):
         lastUpdate = rrdtool.lastupdate("weatherweb.rrd")
-        temp = lastUpdate["temp"]
-        humidity = lastUpdate["humidity"]
+        temp = lastUpdate["ds"]["temp"]
+        humidity = lastUpdate["ds"]["humidity"]
         updateTime = lastUpdate["date"]
         return render.index(temp,humidity,updateTime)
 
