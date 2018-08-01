@@ -77,10 +77,11 @@ $# $def with (temp, humidity, updateTime)
         jQuery("#currentTemp").html(result.temp); 
 	      jQuery("#currentHumidity").html(result.humidity);
         jQuery("#currentDate").html(result.date);
-        var i = i + 1
-        console.log("Update" + i)
+        i = i + 1
+        console.log("Update " + i)
         });
-      }; 
+      };
+      updateCurrent()
       jQuery(document).ready(function(){
         window.setInterval(updateCurrent, 60000);
       });
