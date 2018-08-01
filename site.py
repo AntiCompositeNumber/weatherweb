@@ -2,23 +2,29 @@
 
 import web
 import rrdtool
+import json
+from datetime import datetime
 
 render = web.template.render('templates/')
 
 urls = (
-    '/', 'index'
+  '/', 'index',
+  '/api/current', 'currentAPI'
 )
 
 class index:
-    def GET(self):
-        lastUpdate = rrdtool.lastupdate("weatherweb.rrd")
-        temp = round(lastUpdate["ds"]["temp"], 1)
-        humidity = round(lastUpdate["ds"]["humidity"], 0)
-        updateTime = lastUpdate["date"]
-        return render.index(temp,humidity,updateTime)
+  def GET(self):
+     return 
+
+class currentAPI:
+  def GET(self):
+    lastUpdate = rrdtool.lastupdate("weatherweb.rrd")
+    current = {"date":datetime.isoformat(lastUpdate["date"]), "temp":round(lastUpdate["ds"]["temp"], 1), "humidity":round(lastUpdate["ds"]["humidity"], 0)}
+    currentJSON = json.dumps(current) 
+    return currentJSON
 
 if __name__ == "__main__":
-    app = web.application(urls, globals())
-    app.run()
+  app = web.application(urls, globals())
+  app.run()
 
 
