@@ -19,7 +19,7 @@ class index:
 class currentAPI:
   def GET(self):
     lastUpdate = rrdtool.lastupdate("weatherweb.rrd")
-    current = {"date":datetime.isoformat(lastUpdate["date"])+'Z', "temp":round(lastUpdate["ds"]["temp"], 1), "humidity":round(lastUpdate["ds"]["humidity"], 0)}
+    current = {"date":datetime.isoformat(lastUpdate["date"]) + "Z", "temp":round(lastUpdate["ds"]["temp"], 1), "humidity":round(lastUpdate["ds"]["humidity"], 0)}
     currentJSON = json.dumps(current) 
     return currentJSON
 
