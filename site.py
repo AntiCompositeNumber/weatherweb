@@ -27,7 +27,7 @@ class currentAPI:
     return currentJSON
 class dayAPI:
   def GET(self):
-    lastDay = subprocess.call("/usr/bin/rrdtool xport DEF:wwt=" + rrdPath + ":temp:AVERAGE DEF:wwh=" + rrdPath + ":humidity:AVERAGE XPORT:wwt:temp XPORT:wwh:humidity --json --showtime") 
+    lastDay = subprocess.check_output("/home/alarm/git/weatherweb/day.sh") 
     return lastDay
 
 if __name__ == "__main__":
