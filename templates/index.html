@@ -50,15 +50,14 @@ $# $def with (temp, humidity, updateTime)
     
     <main role="main" class="container">
       <h1>Weatherweb</h1>
-        <div class="container p-3 bg-primary border-0 rounded">
+        <div class="container p-3 ">
           <h2 class="text-center">Current conditions</h2>
-	  <div class="row currentConditions">
-      <div class="col-sm m-auto text-center" >The current temperature is <span id="currentTemp"></span>&#176;F.</div>
-      <div class="col-sm m-auto text-center">The current humidity level is <span id="currentHumidity"></span>%.</div>
+	  <div class="card-deck">
+	    <div class="card"><div class="card-body text-center display-2 bg-primary" ><span id="currentTemp"></span>&#176;F</div></div>
+	    <div class="card"><div class="card-body text-center display-2 bg-primary"><span id="currentHumidity"></span>%</div></div>
 	  </div>
     <div class="text-center">Last updated <span id="currentDate"></span></div>
 	</div>
-      Charts And Stuff
     </main>
 
 
