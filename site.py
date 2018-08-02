@@ -17,7 +17,7 @@ urls = (
 
 class index:
   def GET(self):
-     return render.index()
+    return render.index()
 
 class currentAPI:
   def GET(self):
