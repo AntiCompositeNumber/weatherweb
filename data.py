@@ -17,8 +17,11 @@ while True:
 
     #The RRD stores everything as floating-point numbers, so don't bother rounding anything here. 
     #Send data to RRD
-    rrdtool.update('weatherweb.rrd','N:{0}:{1}'.format(temperature, humidity))
-    print(time.time(),'N:{0}:{1}'.format(temperature,humidity))
+    try:
+        rrdtool.update('weatherweb.rrd','N:{0}:{1}'.format(temperature, humidity))
+        print(time.time(),'N:{0}:{1}'.format(temperature,humidity))
+    except:
+        print("RRD error, ", time.time(),'N:{0}:{1}'.format(temperature,humidity))
 
     #And now we wait.
     time.sleep(55)
