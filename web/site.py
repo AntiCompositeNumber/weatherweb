@@ -5,7 +5,10 @@ from datetime import datetime
 import subprocess
 import web
 import rrdtool
+import configparser
 
+config = configparser.ConfigParser()
+config.read('config.ini')
 rrdPath = 'weatherweb.rrd'
 render = web.template.render('templates/')
 
