@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block title %}Current conditions{% endblock %}
+{% block content %}
+<h1>Weatherweb</h1>
+<div class="alert alert-danger" id="noConnection"role="alert">
+  Connection lost! Retrying...
+</div>
+<div class="container p-3 ">
+  <h2 class="text-center">Current conditions</h2>
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-body text-center display-2 bg-primary" >
+        <span id="currentTemp"></span>&#176;F
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body text-center display-2 bg-primary">
+        <span id="currentHumidity"></span>%
+      </div>
+    </div>
+  </div>
+  <div class="text-center">Last updated <span id="currentDate"></span></div>
+</div>
+{% endblock %}
+{% block js %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.31/moment-timezone-with-data-2012-2022.min.js" integrity="sha512-efgl7M9A/qdwL40iWWInfUYBUmzWBKASW7GIB0oXvept2U3t2oIjvbL5sTwSlvVd6rAiPCtTst7jf7ZBt0G9tg==" crossorigin="anonymous"></script>
+  <script src="{{url_for('static', filename='current.js')}}"></script>
+{% endblock %}

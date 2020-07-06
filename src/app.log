@@ -1,0 +1,225 @@
+2020-07-06 12:54:03,629 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-06 12:54:17,279 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:54:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-07-06 12:54:17,693 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:54:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-07-06 12:55:24,695 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-06 12:55:24,697 INFO:werkzeug: * Restarting with stat
+2020-07-06 12:55:24,899 WARNING:werkzeug: * Debugger is active!
+2020-07-06 12:55:24,899 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 12:55:56,563 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2020-07-06 12:55:56,803 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 12:55:56,804 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 12:55:56,805 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 12:55:56,876 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 12:55:56,918 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:55:56] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 12:57:01,965 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:57:01] "[37mGET / HTTP/1.1[0m" 200 -
+2020-07-06 12:57:03,014 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:57:03] "[33mGET /static/favicon.ico HTTP/1.1[0m" 404 -
+2020-07-06 12:57:42,039 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:57:42] "[37mGET /current HTTP/1.1[0m" 200 -
+2020-07-06 12:57:42,106 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:57:42] "[37mGET /static/current.js HTTP/1.1[0m" 200 -
+2020-07-06 12:58:11,831 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:11] "[37mGET / HTTP/1.1[0m" 200 -
+2020-07-06 12:58:13,993 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:13] "[37mGET /current HTTP/1.1[0m" 200 -
+2020-07-06 12:58:14,232 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:14] "[33mGET /api/current HTTP/1.1[0m" 404 -
+2020-07-06 12:58:15,885 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:15] "[37mGET / HTTP/1.1[0m" 200 -
+2020-07-06 12:58:22,902 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:22] "[35m[1mGET /devices/aircon HTTP/1.1[0m" 500 -
+2020-07-06 12:58:22,975 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:22] "[37mGET /devices/aircon?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 12:58:22,976 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:22] "[37mGET /devices/aircon?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 12:58:22,976 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:22] "[37mGET /devices/aircon?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 12:58:23,162 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:58:23] "[37mGET /devices/aircon?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 12:59:37,990 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 12:59:37] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:16:02,765 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:16:02] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:16:15,516 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:16:15] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:16:44,927 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:16:44] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:17:26,524 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:17:26] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:17:58,071 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:17:58] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:18:47,605 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:18:47] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:20:28,481 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:20:28] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:20:28,808 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:20:28] "[33mGET /static/favicon.ico HTTP/1.1[0m" 404 -
+2020-07-06 13:22:59,328 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:22:59] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:23:32,443 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:23:32] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:24:51,584 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:24:51] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:26:14,808 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:26:14] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:27:35,142 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:27:35] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:32:20,747 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:32:20] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:32:24,966 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:32:24] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:33:03,737 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:33:03] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:34:33,494 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:34:33] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:34:45,273 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:34:45] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:35:21,174 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:35:21] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:35:27,835 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:35:27] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:36:04,999 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:36:04] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:36:14,102 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:36:14] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:36:15,939 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:36:15] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:36:23,410 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:36:23] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:36:27,593 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:36:27] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:38:09,011 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:38:09] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:38:25,440 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:38:25] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:43:10,575 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:43:10] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:52:22,200 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 13:52:22] "[37mGET /devices/aircon HTTP/1.1[0m" 200 -
+2020-07-06 13:55:34,763 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 13:55:34,807 INFO:werkzeug: * Restarting with stat
+2020-07-06 13:55:35,101 WARNING:werkzeug: * Debugger is active!
+2020-07-06 13:55:35,102 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:40:44,529 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+2020-07-06 14:40:44,821 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[37mGET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 14:40:44,821 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[37mGET /api?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 14:40:44,822 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[37mGET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 14:40:44,857 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[37mGET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 14:40:44,907 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:44] "[37mGET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 14:40:56,753 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:56] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+2020-07-06 14:40:56,824 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:56] "[37mGET /api?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 14:40:56,824 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:56] "[37mGET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 14:40:56,825 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:56] "[37mGET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 14:40:57,048 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:40:57] "[37mGET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 14:41:21,118 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:41:21] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+2020-07-06 14:41:21,334 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:41:21] "[37mGET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 14:41:21,336 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:41:21] "[37mGET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 14:41:21,336 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:41:21] "[37mGET /api?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 14:41:21,474 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:41:21] "[37mGET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 14:42:34,105 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:42:34] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+2020-07-06 14:42:34,152 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:42:34] "[37mGET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-07-06 14:42:34,153 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:42:34] "[37mGET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-07-06 14:42:34,153 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:42:34] "[37mGET /api?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-07-06 14:42:34,428 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:42:34] "[37mGET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,185 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[32mGET /api HTTP/1.1[0m" 308 -
+2020-07-06 14:43:23,217 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,325 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,325 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,325 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,327 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,552 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2020-07-06 14:43:23,606 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:23] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:43:53,557 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/device/__init__.py', reloading
+2020-07-06 14:43:53,588 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:43:53,788 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:43:53,789 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:43:59,462 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:43:59,513 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2020-07-06 14:43:59,513 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2020-07-06 14:43:59,518 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2020-07-06 14:43:59,519 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2020-07-06 14:43:59,890 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:43:59] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:44:46,023 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:44:46,062 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:44:46,339 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:44:46,340 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:44:47,181 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:44:47,233 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2020-07-06 14:44:47,235 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2020-07-06 14:44:47,236 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2020-07-06 14:44:47,237 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2020-07-06 14:44:47,538 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:44:47] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:45:16,729 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:45:16] "[35m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 500 -
+2020-07-06 14:45:51,675 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:45:51,706 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:45:51,921 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:45:51,922 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:46:05,695 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:05] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:46:28,088 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:46:28,116 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:46:28,339 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:46:28,339 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:46:31,677 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:31] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:46:40,563 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:40] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:46:40,682 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:40] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2020-07-06 14:46:40,683 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:40] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2020-07-06 14:46:40,684 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:40] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2020-07-06 14:46:40,684 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:40] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2020-07-06 14:46:41,108 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:41] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:46:57,257 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:46:57] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:47:06,389 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-06 14:47:06,391 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:47:06,596 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:47:06,597 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:47:09,189 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:47:09] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:47:27,408 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:47:27] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:47:52,827 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:47:52,863 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:47:53,090 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:47:53,091 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:47:53,148 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:47:53] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:48:17,221 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:48:17,251 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:48:17,459 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:48:17,460 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:48:17,805 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:48:17] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:48:24,690 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-06 14:48:24,691 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:48:24,944 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:48:24,945 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:48:27,377 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:48:27] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:48:42,034 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:48:42,063 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:48:42,272 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:48:42,276 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:48:46,317 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:48:46,353 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:48:46,573 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:48:46,574 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:48:46,919 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:48:46] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:48:55,648 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:48:55,679 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:48:55,891 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:48:55,891 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:48:56,776 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:48:56] "[37mGET /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 200 -
+2020-07-06 14:49:11,929 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:49:11] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:49:19,017 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:49:19,056 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:49:19,316 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:49:19,317 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:49:21,226 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:49:21] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:49:29,867 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:49:29] "[31m[1mPOST /api/v1/device/kenmore/mode HTTP/1.1[0m" 400 -
+2020-07-06 14:49:35,711 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:49:35] "[31m[1mPOST /api/v1/device/kenmore/temp HTTP/1.1[0m" 400 -
+2020-07-06 14:50:02,302 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-06 14:50:02,304 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:50:02,509 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:50:02,509 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:50:05,927 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:05] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:50:21,618 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:50:21,651 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:50:21,854 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:50:21,855 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:50:28,423 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:28] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:50:39,562 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:39] "[37mGET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1[0m" 200 -
+2020-07-06 14:50:39,900 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:39] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2020-07-06 14:50:40,236 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:40] "[36mGET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2020-07-06 14:50:42,773 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:50:42] "[31m[1mPOST /api/v1/device/kenmore/mode?data=off HTTP/1.1[0m" 400 -
+2020-07-06 14:52:20,399 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:52:20,433 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:52:20,639 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:52:20,639 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:52:30,698 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:52:30,726 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:52:30,929 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:52:30,929 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:52:34,569 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:34] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:52:34,795 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:34] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2020-07-06 14:52:34,797 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:34] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2020-07-06 14:52:34,798 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:34] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2020-07-06 14:52:34,801 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:34] "[37mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+2020-07-06 14:52:35,045 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:35] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2020-07-06 14:52:35,324 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:35] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:52:46,311 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:46] "[31m[1mPOST /api/v1/device/kenmore/mode HTTP/1.1[0m" 400 -
+2020-07-06 14:52:46,409 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:52:46] "[36mGET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2020-07-06 14:53:31,214 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:53:31,243 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:53:31,446 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:53:31,447 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:53:32,725 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:32] "[37mGET /api/ HTTP/1.1[0m" 200 -
+2020-07-06 14:53:32,933 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:32] "[37mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 200 -
+2020-07-06 14:53:32,936 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:32] "[37mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 200 -
+2020-07-06 14:53:32,938 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:32] "[37mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 200 -
+2020-07-06 14:53:32,939 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:32] "[37mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 200 -
+2020-07-06 14:53:33,280 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:33] "[37mGET /api/swagger.json HTTP/1.1[0m" 200 -
+2020-07-06 14:53:33,295 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:33] "[37mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 200 -
+2020-07-06 14:53:43,755 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:43] "[31m[1mPOST /api/v1/device/kenmore/mode HTTP/1.1[0m" 400 -
+2020-07-06 14:53:43,859 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:53:43] "[36mGET /swaggerui/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2020-07-06 14:55:16,915 INFO:werkzeug:127.0.0.1 - - [06/Jul/2020 14:55:16] "[31m[1mPOST /api/v1/device/kenmore/%22%22 HTTP/1.1[0m" 400 -
+2020-07-06 14:55:29,992 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:55:30,021 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:55:30,231 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:55:30,231 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:55:45,316 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/api.py', reloading
+2020-07-06 14:55:45,346 INFO:werkzeug: * Restarting with stat
+2020-07-06 14:55:45,560 WARNING:werkzeug: * Debugger is active!
+2020-07-06 14:55:45,561 INFO:werkzeug: * Debugger PIN: 273-768-252
+2020-07-06 14:56:41,842 INFO:werkzeug: * Detected change in '/home/rj/git/weatherweb/src/app.py', reloading
+2020-07-06 14:56:41,871 INFO:werkzeug: * Restarting with stat

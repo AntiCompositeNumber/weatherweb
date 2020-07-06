@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.css" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />
+
+    <script type="text/javascript">
+      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    {% block head %}
+    <title>{% block title %}{% endblock %} - Weatherweb</title>
+    {% endblock %}
+  </head>
+  <body class="">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Weatherweb</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{url_for('frontend.index')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('frontend.current')}}">Current Conditions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Graphs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="JavaScript:window.location.reload()">Refresh</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="{{url_for('frontend.devices')}}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Devices</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="{{url_for('frontend.air_conditioner')}}">Air conditioner</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <main role="main" class="container p-3 mt-5 mx-auto bg-white" style="height:100%">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flashes">
+        {% for category, message in messages %}
+          <div class="alert alert-{% if category=="message" %}primary{% else %}{{category}}{% endif %}" role="alert">{{message}}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    {% block content %}
+    {% endblock %}
+    </main>
+    <footer>
+    {% block footer %}
+    {% endblock %}
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA==" crossorigin="anonymous"></script>
+    {% block js %}
+    {% endblock %}
+  </body>
+</html>

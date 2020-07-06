@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block title %} Air conditioner {% endblock %}
+{% block content %}
+<h1> Air conditioner </h1>
+<div class="container pt-4">
+  <div class="row justify-content-center">
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_pwr">Power</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_timer">Timer</button>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_fan_up">Fan up</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_temp_up">Temp up</button>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_fan_down">Fan down</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_temp_down">Temp down</button>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_cool">Cool</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_save">Energy Saver</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_fan">Fan Only</button>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_auto_fan">Auto Fan</button>
+    </div>
+    <div class="col-sm-3 py-2 text-center">
+      <button type="button" class="btn btn-primary" id="btn_sleep">Sleep</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block js %}
+  <script src="{{url_for('static', filename='kenmore_simple.js')}}"></script>
+{% endblock %}
